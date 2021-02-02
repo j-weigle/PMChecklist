@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/checklist_item"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <RadioGroup
+        android:id="@+id/radio_group_selection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_button_ok"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:text="@string/ok"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/radio_button_rr"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:text="@string/rr"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/radio_button_na"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:text="@string/n_a"
+            android:textSize="22sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/text_view_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/description"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+</LinearLayout>

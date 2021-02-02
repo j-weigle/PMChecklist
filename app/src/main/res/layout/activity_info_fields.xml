@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8f8888"
+    tools:context="com.pmchecklist.activity.InfoFieldsActivity">
+
+    <LinearLayout
+        android:id="@+id/info_fields_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edit_text_wo_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/wo_num"
+            android:inputType="number"
+            android:textSize="22sp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/edit_text_customer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/customer"
+            android:inputType="textPersonName"
+            android:maxLength="48"
+            android:textSize="22sp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/edit_text_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/phone_number"
+            android:inputType="phone"
+            android:maxLength="15"
+            android:textSize="22sp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/edit_text_make"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/make"
+            android:inputType="textCapCharacters"
+            android:maxLength="48"
+            android:textSize="22sp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/edit_text_model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/model"
+            android:inputType="textCapCharacters"
+            android:maxLength="48"
+            android:textSize="22sp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/edit_text_serial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/serial_number"
+            android:inputType="textCapCharacters"
+            android:maxLength="48"
+            android:textSize="22sp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/edit_text_meter_hours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/meter_hours"
+            android:inputType="number|numberDecimal"
+            android:maxLength="48"
+            android:textSize="22sp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/edit_text_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/date_mm_dd_yyyy"
+            android:inputType="date"
+            android:maxLength="10"
+            android:textSize="22sp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/edit_text_st_initials"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/service_tech"
+            android:inputType="textCapCharacters"
+            android:maxLength="48"
+            android:textSize="22sp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/edit_text_additional_comments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/additional_comments"
+            android:inputType="textLongMessage"
+            android:textSize="22sp"
+            android:importantForAutofill="no" />
+
+        <TextView
+            android:id="@+id/parts_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:text="@string/parts" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/button_add_part"
+            android:onClick="addPartFieldsLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            app:backgroundTint="#336666"
+            app:srcCompat="@android:drawable/ic_input_add"
+            android:contentDescription="@string/adds_a_part_to_the_form"
+            android:focusable="true" />
+
+        <Button
+            android:id="@+id/button_create_pdf"
+            android:onClick="createPdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:padding="16dp"
+            app:backgroundTint="#4c6633"
+            android:text="@string/create_pdf" />
+
+    </LinearLayout>
+</ScrollView>

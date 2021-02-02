@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PM Checklist Generator</string>
+
+    <string name="electric">Electric</string>
+    <string name="combustion">Combustion</string>
+    <string name="open_checklist">Open Checklist</string>
+    <string name="generated_documents">Generated Documents</string>
+    <string name="open_folder">Open Folder</string>
+
+    <string name="header">HEADER</string>
+    <string name="description">DESCRIPTION</string>
+
+    <string name="ok">OK</string>
+    <string name="rr">RR</string>
+    <string name="n_a">N/A</string>
+
+    <string name="next">Next</string>
+
+    <string name="wo_num">WO # *</string>
+    <string name="customer">Customer *</string>
+    <string name="phone_number">Phone #</string>
+    <string name="make">Make *</string>
+    <string name="model">Model *</string>
+    <string name="serial_number">Serial Number *</string>
+    <string name="meter_hours">Meter Hours *</string>
+    <string name="date_mm_dd_yyyy">Date * (MM-DD-YYYY)</string>
+    <string name="service_tech">Service Tech *</string>
+    <string name="additional_comments">Additional Comments</string>
+
+    <string name="adds_a_part_to_the_form">adds a part to the form</string>
+
+    <string name="qty">Qty</string>
+    <string name="number">#</string>
+    <string name="parts">Parts</string>
+
+    <string name="create_pdf">Create PDF</string>
+
+    <string name="forklift_clipart">Forklift Clipart</string>
+
+    <string name="sort">Sort:</string>
+    <string name="file_name">File Name</string>
+    <string name="delete_selected_files">Delete Selected Files</string>
+
+    <string name="checklist_safety_header">Safety Items</string>
+
+    <string name="pdf_company_name">Matthai Material Handling</string>
+    <string name="pdf_addr_company">MATTHAI MATERIAL HANDLING COMPANY</string>
+    <string name="pdf_addr_street">1915 A OLDE HOMESTEAD LN</string>
+    <string name="pdf_addr_city_state_zip">LANCASTER, PA 17801</string>
+    <string name="pdf_phone_num">717–288–6111</string>
+    <string name="pdf_fax_num">FAX 717–298–3240</string>
+
+    <string name="pdf_colheader_ok">CHECKED AND OK</string>
+    <string name="pdf_colheader_rr">REQUIRES REPAIR</string>
+    <string name="pdf_colheader_na">NOT APPLICABLE</string>
+    <string name="pdf_colheader_safety">SAFETY ITEM REQUIRES REPAIR</string>
+</resources>
