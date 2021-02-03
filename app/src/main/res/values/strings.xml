@@ -44,12 +44,12 @@
 
     <string name="checklist_safety_header">Safety Items</string>
 
-    <string name="pdf_company_name">Matthai Material Handling</string>
-    <string name="pdf_addr_company">MATTHAI MATERIAL HANDLING COMPANY</string>
-    <string name="pdf_addr_street">1915 A OLDE HOMESTEAD LN</string>
-    <string name="pdf_addr_city_state_zip">LANCASTER, PA 17801</string>
-    <string name="pdf_phone_num">717–288–6111</string>
-    <string name="pdf_fax_num">FAX 717–298–3240</string>
+    <string name="pdf_company_name">Company Name</string>
+    <string name="pdf_addr_company">COMPANY ADDRESS LINE 1</string>
+    <string name="pdf_addr_street">COMPANY ADDRESS LINE 2</string>
+    <string name="pdf_addr_city_state_zip">COMPANY ADDRESS LINE 3</string>
+    <string name="pdf_phone_num">555–555–5555</string>
+    <string name="pdf_fax_num">FAX 555–555–5555</string>
 
     <string name="pdf_colheader_ok">CHECKED AND OK</string>
     <string name="pdf_colheader_rr">REQUIRES REPAIR</string>
