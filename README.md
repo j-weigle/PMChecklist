@@ -5,8 +5,7 @@ Forklift preventative maintenance checklist generation application for android
 # Output PDF
 
 <div align="center">
-  <embed src="./PMChecklist.pdf" width="768px" height="432px">
-  </embed>
+  <img width="768" src="./PMChecklist_Output.png" alt="Output PDF" class="inline">
 </div>
 
 # App Activities
